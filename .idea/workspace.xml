@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ecf3aa52-abbd-420e-9848-094a32261c1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/zhihuuser.iml" afterDir="false" />
-    </list>
+    <list default="true" id="ecf3aa52-abbd-420e-9848-094a32261c1a" name="Default Changelist" comment="知乎网站用户信息爬取" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +172,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="19" width="1378" height="719" extended-state="0" />
+    <frame x="34" y="19" width="1378" height="719" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2367223" />
