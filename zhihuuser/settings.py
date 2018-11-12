@@ -66,8 +66,8 @@ DEFAULT_REQUEST_HEADERS = {
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'zhihuuser.pipelines.ZhihuuserPipeline': 300,
-   'zhihuuser.pipelines.MongoPipeline': 400,
+   # 'zhihuuser.pipelines.ZhihuuserPipeline': 300,
+   'zhihuuser.pipelines.MongoPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -90,3 +90,6 @@ ITEM_PIPELINES = {
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+MONGO_URL = 'localhost'
+MONGO_DB = 'zhihu'
